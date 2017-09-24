@@ -19,6 +19,12 @@ public class ControllerReports {
     @Autowired
     Service service;
 
+    @RequestMapping(value = "/*", method = RequestMethod.GET)
+    public String getIndex(){
+
+        return "redirect:reports";
+    }
+
     @RequestMapping(value = "reports",method = RequestMethod.POST)
     public ModelAndView getListReports(@ModelAttribute ReportParametr reportParametr) {
         ModelAndView modelAndView = new ModelAndView();
