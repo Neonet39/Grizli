@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Grizli:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="TestTask.war">
+      <element id="artifact" artifact-name="Grizli:war exploded" />
+    </root>
+  </artifact>
+</component>
