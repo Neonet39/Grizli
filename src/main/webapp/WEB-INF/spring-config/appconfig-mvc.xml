@@ -19,6 +19,6 @@
 
     <context:component-scan base-package="Dao.Repository" />
     <context:component-scan base-package="Controller" />
-    <context:component-scan base-package="Servise" />
+    <context:component-scan base-package="Service" />
 
 </beans:beans>
